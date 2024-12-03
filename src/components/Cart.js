@@ -12,9 +12,9 @@ export default function Cart({ cart, total }) {
 
                 </thead>
                 {
-                    cart.map((item, i) => {
+                    cart.map((item, index) => {
                         return (
-                          <tr key={i}>
+                          <tr key={index}>
                             <td>{item.product}</td>
                             <td>{item.quantity}</td>
                             <td>{item.price}</td>
