@@ -16,7 +16,8 @@ export default function Cart({ cart, total }) {
                         return (
                           <tr key={i}>
                             <td>{item.product}</td>
-
+                            <td>{item.quantity}</td>
+                            <td>{item.price}</td>
                           </tr>
                         );
                       })
