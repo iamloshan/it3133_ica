@@ -1,4 +1,4 @@
-export default function Cart() {
+export default function Cart({ cart, total }) {
     
     return (
         <div className="table-container">
