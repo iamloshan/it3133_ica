@@ -12,7 +12,14 @@ export default function Cart({ cart, total }) {
 
                 </thead>
                 {
-                    
+                    cart.map((item, i) => {
+                        return (
+                          <tr key={i}>
+                            <td>{item.product}</td>
+
+                          </tr>
+                        );
+                      })
                 }
                 <tr>
                     <td >Grand Total : </td>
