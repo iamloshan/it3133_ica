@@ -5,7 +5,7 @@ import Product from "./Product";
 import Cart from "./Cart";
 
 export default function Products(){
-    const[cart,setCart]=useState("");
+    const[cart,setCart]=useState([]);
     const[total,setTot]=useState(0);
    
     return(
